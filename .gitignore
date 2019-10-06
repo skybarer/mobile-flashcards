@@ -11,3 +11,4 @@ web-build/
 web-report/
 /mobile-flashcards.iml
 .vscode/*
+/.idea/
