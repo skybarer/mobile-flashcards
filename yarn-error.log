@@ -1,8 +1,8 @@
 Arguments: 
-  E:\driveE\softwares\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-navigation
+  E:\driveE\softwares\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-navigation-tabs --dev
 
 PATH: 
-  C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Python27\;C:\Python27\Scripts;E:\driveE\softwares\anaconda3;E:\driveE\softwares\anaconda3\Library\mingw-w64\bin;E:\driveE\softwares\anaconda3\Library\usr\bin;E:\driveE\softwares\anaconda3\Library\bin;E:\driveE\softwares\anaconda3\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\software\java8\bin;E:\driveE\softwares\putty\;E:\driveE\softwares\python;E:\driveE\softwares\python\Scripts;C:\spark\bin;E:\driveE\softwares\PostgreSQL\9.4\bin;E:\driveE\softwares\sablecc-3.7\bin;E:\driveE\softwares\brackets\command;E:\driveE\softwares\maven\bin;E:\driveE\softwares\gradle\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_152\bin;C:\Program Files (x86)\Yarn\bin;E:\driveE\softwares\Android\Android Studio\gradle\gradle-3.2\bin;E:\driveE\softwares\MongoDB\Server\3.6\bin;C:\Users\myworld\AppData\Roaming\npm\node_modules\;E:\driveE\softwares\vscode\bin;C:\WINDOWS\System32\OpenSSH\;E:\driveE\softwares\Git\cmd;E:\driveE\softwares\tortisegit\bin;E:\driveE\softwares\;C:\Users\myworld\AppData\Local\Microsoft\WindowsApps;E:\driveE\softwares\vscode\bin;C:\Users\myworld\AppData\Local\Yarn\bin;E:\driveE\softwares\Android\sdk\platform-tools;E:\driveE\softwares\Android\sdk\tools;C:\Users\myworld\AppData\Local\.meteor;E:\driveE\softwares\Compareit;E:\driveE\softwares\flutter\bin;C:\Users\myworld\AppData\Local\atom\bin;C:\Users\myworld\AppData\Local\Microsoft\WindowsApps;E:\driveE\softwares\spring-cli\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\myworld\AppData\Roaming\npm
+  C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Python27\;C:\Python27\Scripts;E:\driveE\softwares\anaconda3;E:\driveE\softwares\anaconda3\Library\mingw-w64\bin;E:\driveE\softwares\anaconda3\Library\usr\bin;E:\driveE\softwares\anaconda3\Library\bin;E:\driveE\softwares\anaconda3\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\software\java8\bin;E:\driveE\softwares\putty\;E:\driveE\softwares\python;E:\driveE\softwares\python\Scripts;C:\spark\bin;E:\driveE\softwares\PostgreSQL\9.4\bin;E:\driveE\softwares\sablecc-3.7\bin;E:\driveE\softwares\brackets\command;E:\driveE\softwares\maven\bin;E:\driveE\softwares\gradle\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_152\bin;C:\Program Files (x86)\Yarn\bin;E:\driveE\softwares\Android\Android Studio\gradle\gradle-3.2\bin;E:\driveE\softwares\MongoDB\Server\3.6\bin;C:\Users\myworld\AppData\Roaming\npm\node_modules\;E:\driveE\softwares\vscode\bin;C:\WINDOWS\System32\OpenSSH\;E:\driveE\softwares\Git\cmd;E:\driveE\softwares\tortisegit\bin;E:\driveE\softwares\;C:\Users\myworld\AppData\Local\Microsoft\WindowsApps;C:\Users\myworld\AppData\Local\Yarn\bin;E:\driveE\softwares\Android\sdk\platform-tools;E:\driveE\softwares\Android\sdk\tools;C:\Users\myworld\AppData\Local\.meteor;E:\driveE\softwares\Compareit;E:\driveE\softwares\flutter\bin;C:\Users\myworld\AppData\Local\atom\bin;C:\Users\myworld\AppData\Local\Microsoft\WindowsApps;E:\driveE\softwares\spring-cli\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\myworld\AppData\Roaming\npm
 
 Yarn version: 
   1.3.2
@@ -25,10 +25,20 @@ npm manifest:
     },
     "dependencies": {
       "expo": "^35.0.0",
+      "expo-constants": "^7.0.0",
+      "expo-font": "^7.0.0",
+      "keymirror": "^0.1.1",
+      "prop-types": "^15.7.2",
       "react": "16.8.3",
       "react-dom": "16.8.3",
       "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
-      "react-native-web": "^0.11.7"
+      "react-native-gesture-handler": "^1.4.1",
+      "react-native-web": "^0.11.7",
+      "react-navigation": "^4.0.10",
+      "react-navigation-stack": "^1.9.3",
+      "react-redux": "^7.1.1",
+      "redux": "^4.0.4",
+      "redux-thunk": "^2.3.0","@expo/vector-icons": "latest"
     },
     "devDependencies": {
       "babel-preset-expo": "^7.0.0"
@@ -4629,4 +4639,4 @@ Lockfile:
       yargs-parser "^7.0.0"
 
 Trace: 
-  Error: EPERM: operation not permitted, unlink 'C:\Users\myworld\Desktop\mobile-flashcards\node_modules\@babel\generator\node_modules\.bin'
+  Error: EPERM: operation not permitted, unlink 'C:\Users\myworld\Desktop\mobile-flashcards\node_modules\@babel\plugin-transform-runtime\node_modules\.bin'
